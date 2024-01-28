@@ -7,7 +7,7 @@ function App() {
     <div className="">
       <Home />
       <div>
-        <p>©josh Dev 2023 inc. All rights reserved</p>
+        <p>©josh Dev 2024 inc. All rights reserved</p>
       </div>
     </div>
   );

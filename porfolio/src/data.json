@@ -1,0 +1,25 @@
+{
+  "proyects": [
+    {
+      "id": 1,
+      "name": "Nautica Ríos",
+      "description": "Pagina donde puedes comprar accesorios o publicar barcos",
+      "codigo": "https://github.com/Ivancho894/Nautica-Rios-Web-Front",
+      "web": "https://nautica-rios-pf-deploy.netlify.app/"
+    },
+    {
+      "id": 2,
+      "name": "Rick and Morty",
+      "description": "pagina copia de la api de rick and morty",
+      "codigo": "https://github.com/jhoshmc/pi-rick_and_morty",
+      "web": ""
+    },
+    {
+      "id": 3,
+      "name": "videogames",
+      "description": "pagina donde puedes ver informacin de videojuegos y guardar nuevos",
+      "codigo": "https://github.com/jhoshmc/Pi-videogames",
+      "web": ""
+    }
+  ]
+}
