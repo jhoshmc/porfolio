@@ -3,21 +3,24 @@
     {
       "id": 1,
       "name": "Nautica Ríos",
-      "description": "Pagina donde puedes comprar accesorios o publicar barcos",
+      "image": "https://previews.123rf.com/images/emelphoto/emelphoto1711/emelphoto171100113/91054146-lancha-en-el-r%C3%ADo.jpg",
+      "description": "Nautica Ríos es una pagina donde pues comprar accesorios nauticos , ver informacion sobre estos y ver informacion de barcos ",
       "codigo": "https://github.com/Ivancho894/Nautica-Rios-Web-Front",
       "web": "https://nautica-rios-pf-deploy.netlify.app/"
     },
     {
       "id": 2,
       "name": "Rick and Morty",
-      "description": "pagina copia de la api de rick and morty",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/rick-y-morty-2-4-1626109423.jpg?crop=0.7476190476190476xw:1xh;center,top&resize=1200:*",
+      "description": "Espre proyecto esta echo con la informacion de la api de rick and morty",
       "codigo": "https://github.com/jhoshmc/pi-rick_and_morty",
       "web": ""
     },
     {
       "id": 3,
       "name": "videogames",
-      "description": "pagina donde puedes ver informacin de videojuegos y guardar nuevos",
+      "image": "https://media.gq-magazine.co.uk/photos/645b5c3c8223a5c3801b8b26/16:9/w_2560%2Cc_limit/100-best-games-hp-b.jpg",
+      "description": "Esta fue mi proyecto final. es una pagina donde puedes ver informacion sobre diversos jegos y puedes guardar en una base de datos los juegos que crees",
       "codigo": "https://github.com/jhoshmc/Pi-videogames",
       "web": ""
     }

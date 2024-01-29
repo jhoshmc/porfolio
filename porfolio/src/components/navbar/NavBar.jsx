@@ -18,13 +18,14 @@ const NavBar = () => {
   const closeMenu = () => {
     const navLinks = document.querySelector(".nav-links");
     navLinks.classList.toggle("top-[9%]");
+    setName("menu");
   };
   return (
     <nav className="flex justify-between items-center w-[92%] mx-auto">
       <div>
         <h2>Josias Moran</h2>
       </div>
-      <div className="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
+      <div className="nav-links duration-500 md:static absolute bg-blue-400 md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
         <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
           <li>
             <a

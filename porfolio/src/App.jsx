@@ -4,11 +4,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="">
+    <div className="relative min-h-screen">
       <Home />
-      <div>
-        <p>©josh Dev 2024 inc. All rights reserved</p>
-      </div>
     </div>
   );
 }
