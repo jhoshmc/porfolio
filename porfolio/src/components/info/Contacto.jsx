@@ -7,7 +7,7 @@ const Contacto = () => {
     {
       id: 1,
       name: "linkedin",
-      enlace: "www.linkedin.com/in/josias-moran-37b320275",
+      enlace: "https://www.linkedin.com/in/josias-moran-37b320275",
       image: linkedin,
     },
     {

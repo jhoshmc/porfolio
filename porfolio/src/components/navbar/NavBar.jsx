@@ -73,7 +73,10 @@ const NavBar = () => {
         </button>
 
         <button>
-          <a href="www.linkedin.com/in/josias-moran-37b320275" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/josias-moran-37b320275"
+            target="_blank"
+          >
             <img className="size-6" src={linkedin} alt="linkedin" />
           </a>
         </button>
