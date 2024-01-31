@@ -36,6 +36,7 @@ const Contacto = () => {
           </div>
         ))}
       </div>
+      <a href="/">⬆️</a>
     </div>
   );
 };

@@ -35,7 +35,7 @@ const Skills = () => {
           ))}
         </div>
       ))}
-      <a href="/">up</a>
+      <a href="/">⬆️</a>
     </div>
   );
 };

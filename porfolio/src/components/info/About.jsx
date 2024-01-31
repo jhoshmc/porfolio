@@ -1,12 +1,12 @@
 // import logo from "../../assets/mainIconsdark.svg";
 import logo from "../../assets/logo.png";
-import CvPdf from "../../assets/cv.pdf";
+import CvPdf from "../../assets/josh_CV.pdf";
 
 const About = () => {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = CvPdf;
-    link.download = "Cv Joaquin";
+    link.download = "Cv Josias";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -30,14 +30,14 @@ const About = () => {
           desarrollandome pero en un ambiente laboral
         </p>
 
-        {/* <div className="flex flex-col items-center space-y-5 space-x-4 p-4  lg:mt-0">
+        <div className="flex flex-col items-center space-y-5 space-x-4 p-4  lg:mt-0">
           <button
             onClick={handleDownloadCV}
             className="bg-blue-500 text-white px-4 py-2 rounded-lg border cursor-pointer font-bold"
           >
             Descargar CV
           </button>
-        </div> */}
+        </div>
       </div>
 
       <div className="lg:w-1/2 lg:pr-25 mt-5">
@@ -47,7 +47,7 @@ const About = () => {
           className="w-full h-auto rounded text-white "
         />
       </div>
-      <a href="/">up</a>
+      <a href="/">⬆️</a>
     </div>
   );
 };

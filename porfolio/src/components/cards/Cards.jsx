@@ -15,7 +15,7 @@ const Cards = () => {
           <Card key={p.id} proyecto={p} />
         ))}
       </div>
-      <a href="/">up</a>
+      <a href="/">⬆️</a>
     </div>
   );
 };
