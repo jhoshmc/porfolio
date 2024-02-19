@@ -1,6 +1,6 @@
 // import logo from "../../assets/mainIconsdark.svg";
 import logo from "../../assets/logo.png";
-import CvPdf from "../../assets/josh_CV.pdf";
+import CvPdf from "../../assets/JosiasCV.pdf";
 
 const About = () => {
   const handleDownloadCV = () => {
