@@ -1,5 +1,5 @@
 // import logo from "../../assets/mainIconsdark.svg";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/img/logo.png";
 import CvPdf from "../../assets/JosiasCV.pdf";
 
 const About = () => {

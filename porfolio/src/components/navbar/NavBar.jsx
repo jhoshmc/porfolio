@@ -1,7 +1,7 @@
-import menu from "../../assets/menu.svg";
-import close from "../../assets/close.svg";
-import github from "../../assets/github.svg";
-import linkedin from "../../assets/linkedin.svg";
+import menu from "../../assets/img/menu.svg";
+import close from "../../assets/img/close.svg";
+import github from "../../assets/img/github.svg";
+import linkedin from "../../assets/img/linkedin.svg";
 import { useState } from "react";
 const NavBar = () => {
   const [name, setName] = useState("menu");

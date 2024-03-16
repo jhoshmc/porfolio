@@ -1,6 +1,6 @@
-import linkedin from "../../assets/linkedin.svg";
-import github from "../../assets/github.svg";
-import gmail from "../../assets/gmail.svg";
+import linkedin from "../../assets/img/linkedin.svg";
+import github from "../../assets/img/github.svg";
+import gmail from "../../assets/img/gmail.svg";
 
 const Contacto = () => {
   const contact = [

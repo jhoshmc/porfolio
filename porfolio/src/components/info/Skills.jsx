@@ -1,15 +1,15 @@
-import HtmlSvg from "../../assets/html.png";
-import CssSvg from "../../assets/css.png";
-import JsSvg from "../../assets/js.png";
-import ReactSvg from "../../assets/react.png";
-import NodeSvg from "../../assets/node-js.png";
-import DatabaseSvg from "../../assets/postger.png";
+import HtmlSvg from "../../assets/img/html.png";
+import CssSvg from "../../assets/img/css.png";
+import JsSvg from "../../assets/img/js.png";
+import ReactSvg from "../../assets/img/react.png";
+import NodeSvg from "../../assets/img/node-js.png";
+import DatabaseSvg from "../../assets/img/postger.png";
 
-import Express from "../../assets/express.png";
+import Express from "../../assets/img/express.png";
 
-import Redux from "../../assets/redux.png";
+import Redux from "../../assets/img/redux.png";
 
-import Tailwind from "../../assets/tailwind.png";
+import Tailwind from "../../assets/img/tailwind.png";
 
 const Skills = () => {
   const technologies = [
