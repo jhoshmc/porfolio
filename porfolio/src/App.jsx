@@ -4,9 +4,9 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="relative min-h-screen">
+    <div>
       <Home />
-    </main>
+    </div>
   );
 }
 

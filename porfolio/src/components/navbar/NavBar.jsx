@@ -3,6 +3,7 @@ import close from "../../assets/img/close.svg";
 import github from "../../assets/img/github.svg";
 import linkedin from "../../assets/img/linkedin.svg";
 import { useState } from "react";
+import style from "./navbar.module.css";
 const NavBar = () => {
   const [name, setName] = useState("menu");
   const menuClick = (e) => {
@@ -21,54 +22,35 @@ const NavBar = () => {
     setName("menu");
   };
   return (
-    <nav className="flex justify-between items-center w-[92%] mx-auto">
+    <nav>
       <div>
-        <h2>Josias Moran</h2>
-      </div>
-      <div className="nav-links duration-500 md:static absolute bg-blue-400 md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5">
-        <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+        <ul className={style.container_linst}>
           <li>
-            <a
-              onClick={closeMenu}
-              className="hover:text-blue-500"
-              href="#about"
-            >
+            <a onClick={closeMenu} href="#about">
               About
             </a>
           </li>
           <li>
-            <a
-              onClick={closeMenu}
-              className="hover:text-blue-500"
-              href="#skills"
-            >
+            <a onClick={closeMenu} href="#skills">
               Skills
             </a>
           </li>
           <li>
-            <a
-              onClick={closeMenu}
-              className="hover:text-blue-500"
-              href="#proyects"
-            >
+            <a onClick={closeMenu} href="#proyects">
               Proyectos
             </a>
           </li>
           <li>
-            <a
-              onClick={closeMenu}
-              className="hover:text-blue-500"
-              href="#contacto"
-            >
+            <a onClick={closeMenu} href="#contacto">
               Contacto
             </a>
           </li>
         </ul>
       </div>
-      <div className="flex items-center gap-6">
+      <div className={style.container_buttons}>
         <button>
           <a href="https://github.com/jhoshmc" target="_blank">
-            <img className="size-6" src={github} alt="github" />
+            <img src={github} alt="github" className="iconos" />
           </a>
         </button>
 
@@ -77,16 +59,16 @@ const NavBar = () => {
             href="https://www.linkedin.com/in/josias-moran-37b320275"
             target="_blank"
           >
-            <img className="size-6" src={linkedin} alt="linkedin" />
+            <img src={linkedin} alt="linkedin" className="iconos" />
           </a>
         </button>
         {name === "menu" ? (
-          <button onClick={menuClick} className="cursor-pointer md:hidden">
-            <img className="size-6" src={menu} alt="menu" />
+          <button onClick={menuClick}>
+            <img src={menu} alt="menu" className="iconos" />
           </button>
         ) : (
-          <button onClick={menuClick} className="cursor-pointer md:hidden">
-            <img className="size-6" src={close} alt="close" />
+          <button onClick={menuClick}>
+            <img src={close} alt="close" className="iconos" />
           </button>
         )}
       </div>
