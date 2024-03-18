@@ -1,5 +1,5 @@
 // import logo from "../../assets/mainIconsdark.svg";
-import logo from "../../assets/img/logo.png";
+import logo from "../../assets/img/dibujo_programador.png";
 import CvPdf from "../../assets/JosiasCV.pdf";
 
 const About = () => {
@@ -13,42 +13,35 @@ const About = () => {
   };
 
   return (
-    <div
-      id="about"
-      className="container mx-auto p-20 flex flex-col lg:flex-row items-center justify-between mt-30"
-    >
-      <div className="lg:w-1/2 lg:pr-10 mt-8">
+    <section id="about">
+      <article>
         <div>
-          <span className="text-4xl font-bold text-gray-800">
-            <font className="text-black bg-clip-text bg-gradient-to-r from-purple-200 to-cyan-600 ml-0">
-              sobre mí
-            </font>
-          </span>
-        </div>
-        <p className="text-lg text-black mt-4">
-          Soy un desarrollador Full Stack con entuciasmo de seguir
-          desarrollandome pero en un ambiente laboral
-        </p>
+          <h2>About</h2>
 
-        <div className="flex flex-col items-center space-y-5 space-x-4 p-4  lg:mt-0">
-          <button
-            onClick={handleDownloadCV}
-            className="bg-blue-500 text-white px-4 py-2 rounded-lg border cursor-pointer font-bold"
-          >
-            Descargar CV
-          </button>
+          <p>
+            Hola, mi nombre es Josías Moran, soy un desarrollador Full Stack con
+            la capacidad de realizar proyectos completos (implementando base de
+            datos , frond-end, back-end). Busco la oportunidad de adquirir
+            experiencia real y continuar formándome en este mundo del
+            desarrollo. Soy una persona sociable (aunque por ratos no lo
+            parezca), empática, respetuosa. me gusta aprender de los demás y si
+            es que esta en mi posibilidad colaborar con ellos. Manejo
+            tecnologías como JavaScript, Node.js, Express.js, PostgreSQL,
+            Sequelize, React.js, Redux, Tailwind css, GitHub. además estoy
+            dispuesto a aprender otras tecnologías. Si capte tu atención me
+            puedes contactar conmigo, muchas gracias por y que tengas un buen
+            día 😁
+          </p>
+          <button onClick={handleDownloadCV}>Descargar CV</button>
         </div>
-      </div>
 
-      <div className="lg:w-1/2 lg:pr-25 mt-5">
-        <img
-          src={logo}
-          alt="Mi SVG"
-          className="w-full h-auto rounded text-white "
-        />
-      </div>
+        <div>
+          <img src={logo} alt="Mi SVG" />
+        </div>
+      </article>
+
       <a href="/">⬆️</a>
-    </div>
+    </section>
   );
 };
 
