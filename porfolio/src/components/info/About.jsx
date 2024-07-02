@@ -1,12 +1,12 @@
 // import logo from "../../assets/mainIconsdark.svg";
 import logo from "../../assets/img/logo.png";
-import CvPdf from "../../assets/JosiasCV.pdf";
+import CvPdf from "../../assets/Resumen_Josias_Moran_FullStackDev.pdf";
 
 const About = () => {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = CvPdf;
-    link.download = "Cv Josias";
+    link.download = "Resumen_Josias_Moran_FullStackDev";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
