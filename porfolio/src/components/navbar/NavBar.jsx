@@ -25,26 +25,21 @@ const NavBar = () => {
     <nav>
       <div>
         <ul className={style.container_linst}>
-          <li>
-            <a onClick={closeMenu} href="#about">
-              About
-            </a>
-          </li>
-          <li>
-            <a onClick={closeMenu} href="#skills">
-              Skills
-            </a>
-          </li>
-          <li>
-            <a onClick={closeMenu} href="#proyects">
-              Proyectos
-            </a>
-          </li>
-          <li>
-            <a onClick={closeMenu} href="#contacto">
-              Contacto
-            </a>
-          </li>
+          <a onClick={closeMenu} href="#about">
+            About
+          </a>
+
+          <a onClick={closeMenu} href="#skills">
+            Skills
+          </a>
+
+          <a onClick={closeMenu} href="#proyects">
+            Proyectos
+          </a>
+
+          <a onClick={closeMenu} href="#contacto">
+            Contacto
+          </a>
         </ul>
       </div>
       <div className={style.container_buttons}>
